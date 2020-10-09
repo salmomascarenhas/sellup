@@ -1,9 +1,15 @@
 import React from 'react';
 import Routes from './routes';
+import { ThemeProvider, CSSReset } from '@chakra-ui/core'
 
-const App = () => {
+
+const App = ({ children }) => {
     return (
-        <Routes />
+        <ThemeProvider >
+            <CSSReset />
+            <Routes />
+            {children}
+        </ThemeProvider>
     );
 }
 
