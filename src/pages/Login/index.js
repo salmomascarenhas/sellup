@@ -1,7 +1,8 @@
 import React from 'react';
 import {
     Flex, Stack, Image, Text, Input, Link, Divider,
-    Button
+    Button,
+    Box
 } from '@chakra-ui/core';
 
 import { ReactComponent as Logo } from '../../images/logo.svg';
@@ -11,14 +12,14 @@ import gmailIcon from '../../images/gmail_icon.png';
 
 const Login = () => {
     return (
-        <Flex bg='#74BFE9' height='100vh' justifyContent='center' alignItems='center' flexDir='column'>
-            <Logo />
-            <Flex width='650px' height='550px' marginTop='5rem' padding='3rem' bg='white' flexDir='column' justifyContent='space-between' alignItems='center' >
-                <Stack isInline>
+        <Box bg='#74BFE9' height='100vh'  display= 'flex'  alignItems='center' flexDir='column' >
+            {/*<Logo />*/} 
+            <Flex  marginTop='5rem' padding='3rem' bg='white' flexDir='column' justifyContent='space-between' alignItems='center' >
+                <Stack isInline marginBottom='1rem'>
                     <Image src={loginIcon} alt='Ícone entrar' />
                     <Text>Entrar</Text>
                 </Stack>
-                <Stack isInline justify='space-around'>
+                <Stack isInline justify='space-around' marginBottom='2rem'>
                     <Link href="https://www.facebook.com" target='_blank'>
                         <Image src={facebookIcon} alt='Ícone Facebook' />
                     </Link>
@@ -26,22 +27,22 @@ const Login = () => {
                         <Image src={gmailIcon} alt='Ícone Gmail' />
                     </Link>
                 </Stack>
-                <Stack isInline align='center'>
+                <Stack isInline align='center' marginBottom='2rem'>
                     <Divider borderColor='#111111' w='150px' />
                     <Text textTransform='uppercase'>ou</Text>
                     <Divider borderColor='#111111' w='150px' />
                 </Stack>
-                <Stack>
+                <Stack justifyContent>
                     <Input placeholder='Email' width='25rem' />
                     <Input placeholder='Senha' />
                     <Flex flexDir='column' marginTop='1rem'>
                         <Link href='https://www.google.com' target='_blank' color='#74BFE9' >Esqueceu a senha ?</Link>
-                        <Button bg='#74BFE9' color='white'>Entrar</Button>
+                        <a href="https://wipsites.com.br"><Button bg='#74BFE9' color='white' width='100%'>Entrar</Button></a>
                     </Flex>
                     <Link textAlign='center' href='https://www.google.com' target='_blank' color='#74BFE9' >Criar uma conta</Link>
                 </Stack>
             </Flex>
-        </Flex>
+        </Box>
     );
 }
 
