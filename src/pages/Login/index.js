@@ -1,14 +1,16 @@
 import React from 'react';
 import {
-    Flex, Stack, Image, Text, Input, Link, Divider,
+    Flex, Stack, Image, Text, Input, Divider,
     Button,
     Box
 } from '@chakra-ui/core';
+import {Link} from 'react-router-dom';
 
 import { ReactComponent as Logo } from '../../images/logo.svg';
 import loginIcon from '../../images/login_icon.png';
 import facebookIcon from '../../images/facebook_icon.png';
 import gmailIcon from '../../images/gmail_icon.png';
+
 
 const Login = () => {
     return (
@@ -37,7 +39,7 @@ const Login = () => {
                     <Input placeholder='Senha' />
                     <Flex flexDir='column' marginTop='1rem'>
                         <Link href='https://www.google.com' target='_blank' color='#74BFE9' >Esqueceu a senha ?</Link>
-                        <a href="https://wipsites.com.br"><Button bg='#74BFE9' color='white' width='100%'>Entrar</Button></a>
+                        <Link to="/"><Button bg='#74BFE9' color='white' width='100%'>Entrar</Button></Link>
                     </Flex>
                     <Link textAlign='center' href='https://www.google.com' target='_blank' color='#74BFE9' >Criar uma conta</Link>
                 </Stack>
