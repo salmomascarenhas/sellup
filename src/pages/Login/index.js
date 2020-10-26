@@ -6,7 +6,6 @@ import {
 } from '@chakra-ui/core';
 import {Link} from 'react-router-dom';
 
-import { ReactComponent as Logo } from '../../images/logo.svg';
 import loginIcon from '../../images/login_icon.png';
 import facebookIcon from '../../images/facebook_icon.png';
 import gmailIcon from '../../images/gmail_icon.png';

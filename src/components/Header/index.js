@@ -2,14 +2,11 @@ import React from 'react';
 import {Box, 
   Heading, 
   Flex, 
-  Text, 
-  Button, 
   Image} from '@chakra-ui/core';
 import {
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbLink,
-  BreadcrumbSeparator,
 } from "@chakra-ui/core";
 
 import Logo from '../../images/logo.svg'
