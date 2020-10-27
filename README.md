@@ -67,6 +67,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-### `sellup-web(Boodega)
+### `Sellup Web(Boodega)
+O software tem como intuito trazer as mercearias para mais próximo dos usuários dos computadores e smartphones.
+
 
 
