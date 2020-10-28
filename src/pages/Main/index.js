@@ -3,7 +3,7 @@ import {
   Grid,
   Text,
   Heading,
-  Box, 
+  Box,
   Image,
   Flex
 } from '@chakra-ui/core';
@@ -15,10 +15,10 @@ import Mouse from '../../images/mouseMain.svg';
 import Motoboy from '../../images/motoboy.svg';
 import GooglePlay from '../../images/Playstore.svg';
 import Appstore from '../../images/AppStore.svg';
-import './styles.css'; 
+import './styles.css';
 
-function Principal(){
-  return(
+function Principal() {
+  return (
     <div id="page-main">
       <Header />
       <Grid templateColumns="repeat(2, 2fr)" gap="2%">
@@ -30,8 +30,8 @@ function Principal(){
             Tenha controle das suas vendas na palma da mão. Conheça um novo conceito de vendas.
           </Text>
         </Box>
-        <Box w="100%"  paddingTop="1.5rem">
-          <Image src={Celular} paddingLeft="30%"/>
+        <Box w="100%" paddingTop="1.5rem">
+          <Image src={Celular} paddingLeft="30%" />
         </Box>
       </Grid>
       <Heading paddingTop="7rem" textAlign="center" as="h1" size="2xl">
@@ -39,7 +39,7 @@ function Principal(){
       </Heading>
       <Flex paddingTop="0.2rem" justifyContent="center">
         <Flex align="flex-end">
-          <Image src={Mouse} paddingLeft="4rem"/>
+          <Image src={Mouse} paddingLeft="4rem" />
         </Flex>
         <Flex size="20rem" paddingLeft="2rem" paddingTop="11.563rem" textAlign="center">
           <Text fontSize="4xl">Venda em passos simples e rápido</Text>
@@ -56,10 +56,10 @@ function Principal(){
       </Heading>
       <Flex paddingTop="6rem" paddingBottom="6rem" justifyContent="center">
         <Flex>
-          <Image src={GooglePlay}/>
+          <Image src={GooglePlay} />
         </Flex>
         <Flex>
-          <Image src={Appstore} paddingLeft="10rem"/>
+          <Image src={Appstore} paddingLeft="10rem" />
         </Flex>
       </Flex>
       <Footer />
