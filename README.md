@@ -1,7 +1,7 @@
-##SELLUP
+## SELLUP
 Projeto desenvolvido para da discplina de Engenharia de software, na Universidade Federal do Ceará - 2020.
 
-##Equipe
+## Equipe
 - Salmo da Cruz Mascarenhas - 431447
 
 ## Links de apresentação.
