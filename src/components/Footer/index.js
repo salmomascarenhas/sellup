@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Text, Button, Grid } from '@chakra-ui/core'
+import { Flex, Text, Button, Grid,useColorMode } from '@chakra-ui/core'
 
 const Footer = props => {
   return (
