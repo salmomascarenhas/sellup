@@ -1,15 +1,16 @@
 import React from 'react';
-import {Box, 
+import {
+  Box, 
   Heading, 
-  Flex, 
+  Flex,
   Text, 
   Button, 
-  Image} from '@chakra-ui/core';
-import {
+  Link,
+  Image,
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbLink,
-  BreadcrumbSeparator,
+  BreadcrumbSeparator
 } from "@chakra-ui/core";
 
 import Logo from '../../images/logo.svg'
@@ -64,6 +65,11 @@ import Logo from '../../images/logo.svg'
 
             <BreadcrumbItem paddingRight="3rem">
               <BreadcrumbLink href="#">Entrar</BreadcrumbLink>
+              <BreadcrumbLink href="cadastro">Cadastrar mercado</BreadcrumbLink>
+            </BreadcrumbItem>
+
+            <BreadcrumbItem paddingRight="3rem">
+              <BreadcrumbLink href="/login">Entrar</BreadcrumbLink>
             </BreadcrumbItem>
           </Breadcrumb>
         </Box>

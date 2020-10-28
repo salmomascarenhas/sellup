@@ -66,3 +66,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### `Sellup Web(Boodega)
+O software tem como intuito trazer as mercearias para mais próximo dos compradores, seja via smarthpones ou computadores, de forma que eles não precisem sair de casa para efetuar seu pedido, algo que se mostrou totalmente necessário no "novo normal".
+
+
+
