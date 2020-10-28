@@ -22,6 +22,11 @@ function Principal(){
     <div id="page-main">
       <Header />
       <Grid templateColumns="repeat(2, 2fr)" gap="2%">
+        <Box w="120%" paddingLeft="10.5625rem" >
+          <Heading fontSize="4.5rem" color="#3F6FE9" >
+            Mais vendas, menos trabalho.
+          </Heading>
+          <Text fontSize="2xl" fontWeight="semibold">
         <Box w="110%" paddingLeft="10.4rem" >
           <Heading fontSize="4.5rem" color="#3F6FE9" textAlign="center">
             Mais vendas, menos trabalho.
