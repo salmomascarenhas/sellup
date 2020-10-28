@@ -18,7 +18,7 @@ Projeto desenvolvido para da discplina de Engenharia de software, na Universidad
 - [Web](https://www.figma.com/file/cXRZCUDS6XWMXwThyz2l56/Projeto-ES?node-id=36%3A80)
 
 ## Links de deploy.
-- [Web](https://www.figma.com/file/cXRZCUDS6XWMXwThyz2l56/Projeto-ES?node-id=36%3A80)
+- [Web](https://sellupweb.vercel.app/)
 
 Na raiz do projeto você pode rodar o seguinte comando:
 ### `yarn start`
