@@ -1,7 +1,5 @@
 import React from 'react';
 import {
-  Box, 
-  Heading, 
   Flex,
   Text, 
   Button, 
@@ -10,7 +8,7 @@ import {
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbLink,
-  BreadcrumbSeparator
+  BreadcrumbSeparator,
 } from "@chakra-ui/core";
 
 import Logo from '../../images/logo.svg'
@@ -60,7 +58,7 @@ import Logo from '../../images/logo.svg'
         >
           <Breadcrumb separator="|" fontWeight="medium">
             <BreadcrumbItem>
-              <BreadcrumbLink href="#">Cadastrar mercado</BreadcrumbLink>
+              <BreadcrumbLink href="cadastro">Cadastrar mercado</BreadcrumbLink>
             </BreadcrumbItem>
 
             <BreadcrumbItem paddingRight="3rem">
