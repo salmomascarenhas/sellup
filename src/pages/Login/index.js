@@ -15,7 +15,7 @@ const Login = () => {
     return (
         <Box bg='#74BFE9' height='100vh'  display= 'flex'  alignItems='center' flexDir='column' >
             {/*<Logo />*/} 
-            <Flex  marginTop='5rem' padding='3rem' bg='white' flexDir='column' justifyContent='space-between' alignItems='center' >
+            <Flex  marginTop='5rem' padding='3rem' borderRadius="15px" borderRa bg='white' flexDir='column' justifyContent='space-between' alignItems='center' >
                 <Stack isInline marginBottom='1rem'>
                     <Image src={loginIcon} alt='Ícone entrar' />
                     <Text>Entrar</Text>
@@ -33,12 +33,12 @@ const Login = () => {
                     <Text textTransform='uppercase'>ou</Text>
                     <Divider borderColor='#111111' w='150px' />
                 </Stack>
-                <Stack justifyContent>
+                <Stack justifyContent >
                     <Input placeholder='Email' width='25rem' />
                     <Input placeholder='Senha' />
                     <Flex flexDir='column' marginTop='1rem'>
                         <Link href='https://www.google.com' target='_blank' color='#74BFE9' >Esqueceu a senha ?</Link>
-                        <Link to="/"><Button bg='#74BFE9' color='white' width='100%'>Entrar</Button></Link>
+                        <Link to="/atividades"><Button bg='#74BFE9' color='white' width='100%'>Entrar</Button></Link>
                     </Flex>
                     <Link textAlign='center' href='https://www.google.com' target='_blank' color='#74BFE9' >Criar uma conta</Link>
                 </Stack>
