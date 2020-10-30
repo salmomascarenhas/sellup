@@ -4,6 +4,7 @@ import {
     Button,
     Box
 } from '@chakra-ui/core';
+
 import { Link } from 'react-router-dom';
 
 import loginIcon from '../../images/login_icon.png';
