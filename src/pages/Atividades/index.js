@@ -55,9 +55,11 @@ function Atividades() {
               </Popover>
             </Flex>
             <Flex justify="center" paddingTop="250%">
-              <Button w="110px">
-                <Link href="/">Sair</Link>
+              <Link href="/">
+                <Button w="110px">
+                  Sair
               </Button>
+              </Link>
             </Flex>
           </Stack>
         </Flex>
