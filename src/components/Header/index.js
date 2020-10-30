@@ -6,7 +6,8 @@ import {
   BreadcrumbItem,
   BreadcrumbLink,
   Heading,
-  Box
+  Box,
+  Link
 } from "@chakra-ui/core";
 
 import Logo from '../../images/logo.svg'
@@ -28,7 +29,9 @@ const Header = props => {
     >
       <Flex align="center" mr={5} >
         <Heading letterSpacing={"0.2rem"} paddingLeft="3rem">
-          <Image width="157px" height="46px" src={Logo} />
+          <Link href='/'>
+            <Image width="157px" height="46px" src={Logo} />
+          </Link>
         </Heading>
       </Flex>
 
@@ -56,11 +59,6 @@ const Header = props => {
       >
         <Breadcrumb separator="|" fontWeight="medium">
           <BreadcrumbItem>
-            <BreadcrumbLink href="cadastro">Cadastrar mercado</BreadcrumbLink>
-          </BreadcrumbItem>
-
-          <BreadcrumbItem paddingRight="3rem">
-            <BreadcrumbLink href="#">Entrar</BreadcrumbLink>
             <BreadcrumbLink href="cadastro">Cadastrar mercado</BreadcrumbLink>
           </BreadcrumbItem>
 

@@ -4,7 +4,7 @@ import {
     Button,
     Box
 } from '@chakra-ui/core';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import loginIcon from '../../images/login_icon.png';
 import facebookIcon from '../../images/facebook_icon.png';
@@ -13,9 +13,9 @@ import gmailIcon from '../../images/gmail_icon.png';
 
 const Login = () => {
     return (
-        <Box bg='#74BFE9' height='100vh'  display= 'flex'  alignItems='center' flexDir='column' >
-            {/*<Logo />*/} 
-            <Flex  marginTop='5rem' padding='3rem' borderRadius="15px" borderRa bg='white' flexDir='column' justifyContent='space-between' alignItems='center' >
+        <Box bg='#74BFE9' height='100vh' display='flex' alignItems='center' flexDir='column' >
+
+            <Flex marginTop='5rem' padding='3rem' borderRadius="15px" borderRa bg='white' flexDir='column' justifyContent='space-between' alignItems='center' >
                 <Stack isInline marginBottom='1rem'>
                     <Image src={loginIcon} alt='Ícone entrar' />
                     <Text>Entrar</Text>
