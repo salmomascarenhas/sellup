@@ -3,7 +3,7 @@ import React from 'react';
 import { BsPeopleCircle } from "react-icons/bs";
 import {
   Flex, Image, Grid, Box,
-  Text, Stack, Icon,
+  Text, Stack, Icon, Link,
   Divider, Input, InputGroup, InputLeftElement
 } from "@chakra-ui/core";
 
@@ -15,7 +15,6 @@ import {
   Popover, PopoverTrigger, PopoverContent, PopoverArrow, PopoverHeader, PopoverBody, PopoverCloseButton,
 } from "@chakra-ui/core";
 
-import { Link } from 'react-router-dom';
 
 
 import vilaNova from '../../images/vilaNova.svg';
