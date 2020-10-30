@@ -10,7 +10,7 @@ Projeto desenvolvido para da discplina de Engenharia de software, na Universidad
 - Alex de Sousa Ramos - 428359
 
 ## Documentação
-- [Modelagem UML](https://lucid.app/lucidchart/2e965674-06cd-4eae-8954-3ff4f375b7c6/edit?shared=true&page=0_0#?folder_id=home&browser=icon)
+- [Modelagem UML](https://meet.google.com/linkredirect?authuser=0&dest=https%3A%2F%2Flucid.app%2Finvitations%2Faccept%2Ffc71c8a6-45d7-40e7-9494-1a0aeef4b53f)
 - [Behavior Driven Development - BDD](https://drive.google.com/drive/folders/1CSzuP3-6ndiG22Jjp7F0xZZdvN5OGFwX)
 
 ## Links de apresentação.
