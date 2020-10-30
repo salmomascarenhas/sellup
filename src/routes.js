@@ -4,7 +4,7 @@ import { Route, BrowserRouter, Switch } from 'react-router-dom';
 import Login from './pages/Login';
 import Principal from './pages/Main';
 import Atividades from './pages/Atividades';
-import Cadastro from './pages/Cadastro';
+import Cadastro from './pages/cadastro';
 const Routes = () => {
     return (
         <BrowserRouter>
