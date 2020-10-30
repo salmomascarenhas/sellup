@@ -9,7 +9,7 @@ Projeto desenvolvido para da discplina de Engenharia de software, na Universidad
 - Hítalo Rodrigues de Oliveira - 402885
 - Alex de Sousa Ramos - 428359
 
-##Docuemntação
+## Docuemntação
 - [Modelagem UML](https://lucid.app/lucidchart/2e965674-06cd-4eae-8954-3ff4f375b7c6/edit?shared=true&page=0_0#?folder_id=home&browser=icon)
 - [Behavior Driven Development - BDD](https://drive.google.com/drive/folders/1CSzuP3-6ndiG22Jjp7F0xZZdvN5OGFwX)
 
