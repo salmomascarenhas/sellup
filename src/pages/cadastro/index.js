@@ -6,13 +6,14 @@ import Footer from '../../components/Footer';
 import {
   Box,
   Flex,
-  Grid,
-  Heading,
-  Text, Input,
+  Grid, 
+  Heading, Link,
+  Text, Input, 
   Stack, Button,
-  InputGroup, InputLeftElement, InputRightElement,
-  Icon
-} from '@chakra-ui/core';
+  InputGroup,
+  InputLeftElement,
+  InputRightElement,
+  Icon } from '@chakra-ui/core';
 
 import './styles.css';
 
@@ -59,8 +60,8 @@ function Cadastro() {
                     </Icon >
                   </InputRightElement>
                 </InputGroup>
-                <Button bg={"#69AEFF"} color="white" variant="solid">
-                  Continuar
+                <Button  bg={"#69AEFF"} color="white" variant="solid">
+                  <Link href="/atividades">Continuar</Link> 
                 </Button>
               </Stack>
             </Flex>
