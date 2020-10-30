@@ -7,6 +7,7 @@ Projeto desenvolvido para da discplina de Engenharia de software, na Universidad
 - isaias do carmo carneiro - 398069
 - Sidynelson Fernandes dos Santos 433930
 - Hítalo Rodrigues de Oliveira - 402885
+- Alex de Sousa Ramos - 428359
 
 ## Links de apresentação.
 - [Cliente (MOBILE)](https://www.figma.com/proto/cXRZCUDS6XWMXwThyz2l56/Projeto-ES?node-id=380%3A0&scaling=scale-down)
