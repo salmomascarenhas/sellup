@@ -1,6 +1,6 @@
 {
   "name": "sellup",
-  "version": "0.1.0",
+  "version": "sellup",
   "private": true,
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",
@@ -37,5 +37,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "sellup",
+  "main": "index.js",
+  "repository": "https://github.com/salmomascarenhas/sellup-web.git",
+  "author": "<isaiasorton@gmail.com>",
+  "license": "MIT"
 }

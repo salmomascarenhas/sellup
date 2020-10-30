@@ -17,7 +17,7 @@ const Footer = props => {
     >
       <Grid paddingLeft="10.5625rem" w="100%" templateColumns="repeat(2, 1fr)" gap={6}>
         <Text w="17rem" fontSize="lg" fontWeight="semibold">
-          © Copyright 2020 - Sellup - 
+          © Copyright 2020 - Sellup -
           Todos os direitos reservados Sellup
           CNPJ 14.380.200/0001-21
         </Text>
