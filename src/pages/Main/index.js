@@ -10,6 +10,7 @@ import {
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+
 import Celular from '../../images/imgCelular.svg';
 import Mouse from '../../images/mouseMain.svg';
 import Motoboy from '../../images/motoboy.svg';
