@@ -6,7 +6,7 @@ Projeto desenvolvido para da discplina de Engenharia de software, na Universidad
 - Igor César Almeida da Costa - 414719
 - isaias do carmo carneiro - 398069
 - Sidynelson Fernandes dos Santos 433930
-
+- Hítalo Rodrigues de Oliveira - 402885
 
 ## Links de apresentação.
 - [Cliente (MOBILE)](https://www.figma.com/proto/cXRZCUDS6XWMXwThyz2l56/Projeto-ES?node-id=380%3A0&scaling=scale-down)
