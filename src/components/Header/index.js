@@ -59,7 +59,7 @@ const Header = props => {
       >
         <Breadcrumb separator="|" fontWeight="medium">
           <BreadcrumbItem>
-            <BreadcrumbLink href="cadastro">Cadastrar mercado</BreadcrumbLink>
+            <BreadcrumbLink href="/cadastro">Cadastrar mercado</BreadcrumbLink>
           </BreadcrumbItem>
 
           <BreadcrumbItem paddingRight="3rem">
